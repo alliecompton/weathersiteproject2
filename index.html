@@ -1,0 +1,112 @@
+<! DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>
+           Preston
+        </title>
+        <meta name="description" content="Weather Site content for assignment for Alyssa Clark in CIT230 (Web Front-End Development) at BYU-Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-7.css">
+        <link rel="stylesheet" href="css/large-7.css">
+        
+    </head>
+    <body>
+        <header>
+        <img href="images/sunny-hot-weather-vector-symbol-seeklogo.com.jpg" alt="my unpredictable weather logo">
+            <h1 class="headertitle"> My Unpredictable Weather
+            </h1>
+            <div id="motto">control what you can</div>
+            <div class="menu"><a href="#" onclick="openNav()">&#9776;</a><p class="menutitle">Menu</p></div> 
+        </header>
+        <nav id="nav">
+                <a href = "#" onclick="closeNav()"><p class="x-sign" >&times;</p></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+            
+        </ul>
+        </nav>
+            <main>
+                <h2 class ="town">
+                    Preston Idaho
+                </h2>
+                <div class="container">
+                <table>
+                    <tr>
+                        <th>Weather Summary</th>
+                        <tr><td>Content Here</td></tr>
+                        <tr><td>Content Here</td></tr>
+                        <tr><td>Content Here</td></tr>
+                        <tr><td>Content Here</td></tr>
+                        <tr><td>Content Here</td></tr>
+                    </tr>
+                </table>
+                <img src="images/banner-clouds.jpg" class="clouds" alt = "cloud banner image">
+                </div>
+
+                <section class="forecast">
+                    <h1 class="forecastheader">5 Day Forecast</h1>
+                </section>
+                <article>
+                    <h3>Article Title</h3>
+                    <h4>by Author</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra.</p>
+                </article>
+                <img src="images/animal-animal-photography-blur-460775.jpg" class="articlebanner" alt="squirrel">
+                <img class="map" src="images/map.png" alt = "map">
+                <table class="contactinfo">
+                   
+                        <tr>
+                            <td>Contact info here</td>
+                            <td>Contact info here</td>
+                        </tr>
+                        <tr>
+                            <td>Contact info here</td>
+                            <td>Contact info here</td>
+                        </tr>
+                        <tr><td>Contact info here</td>
+                            <td>Contact info here</td>
+                        </tr>
+                        
+                    </tr>
+                </table>
+                    
+                
+                </main>
+        <footer>
+            <p>&copy; My Unpredictable Weather <p id="footer">2019</p>
+        </footer>
+        <script>
+        
+        
+        function getDate() {
+    var d = new Date();
+    var weekday = new Array(7);
+    weekday[0] = "Sunday";
+    weekday[1] = "Monday";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Wednesday";
+    weekday[4] = "Thursday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+  
+    var n = weekday[d.getDay()];
+    console.log(getDate())
+    document.getElementById("footer").innerHTML = n;
+  }
+        
+        function openNav() {
+            document.getElementById("nav").style.display = "block";
+          }
+          
+        function closeNav() {
+            document.getElementById("nav").style.display = "none";
+        }</script>
+    </body>
+</html>
