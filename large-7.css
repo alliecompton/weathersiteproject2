@@ -1,0 +1,93 @@
+@media (min-width: 700px) {
+
+    .forecast{
+        margin-top: 5%;
+        margin-right: 12%;
+        margin-left: 12%;
+        display: in-line;
+        background-color: #E75A7C;
+        
+        
+    }
+    .forecastheader{
+        background-color: #E75A7C;
+        font-family: "Average Sans", san-serif;
+        color: black;
+        margin-bottom: 20%;
+        text-align: center;
+    
+    }
+    article {
+       margin-top: 3%;
+        margin-left: 5%;
+        max-width:50%;
+        display: inline-block;
+    }
+    .articlebanner {
+        max-width:35%;
+        margin-top: 5%;
+    }
+    .contactinfo {
+        max-width:60%;
+        display: inline-block;
+    }
+    .map {
+        max-width: 50%;
+        background-color: #2C363F;
+        margin: 5%;
+    }
+    header {
+        display: relative;
+        justify-content: right;
+        
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    #motto {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+
+        top: 5%;
+        left: 25%;
+       
+    }
+    .headertitle {
+        margin-left: 25%;
+    }
+    .menu a{
+        display: none;
+    }
+    nav {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .x-sign{
+        display: none;
+    }
+    ul {
+        display:flex;
+        margin: 5%;
+        justify-content: space-around;
+        
+    }
+    table {
+        display: inline;
+    
+    }
+    .menu{
+        display: none;
+    }
+    .clouds {
+        max-width: 95%;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+    h1,h2 {
+        margin-left: 5%;
+    
+    }
+    }
