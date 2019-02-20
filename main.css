@@ -1,12 +1,12 @@
 /* CIT 230 - Assignment Portal CSS Template */
 
 body {
-     text-align: left;
+     text-align: left; 
     font-size: 16px;
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
     color: black;
-    display: inline;
+    display: inline; 
     margin: 10%;
    
 }
