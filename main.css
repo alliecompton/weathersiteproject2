@@ -6,7 +6,7 @@ body {
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
     color: black;
-    display: inline; 
+    display: inline-block; 
     margin: 10%;
    
 }
