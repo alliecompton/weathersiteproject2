@@ -7,10 +7,12 @@ body {
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
     color: black;
+    text-align: center;
+    display: inline;
 }
     
 h1 {
-    font-size: 1.5.xrem  (rem is a unit of measure);
+    font-size: 1.5.xrem;
     color: #363433;}
 }
 
@@ -23,7 +25,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: /* undecided - I couldn't view to make informed decision  */;
+    max-width: 100%;
 }
 
 header, footer, footer a {
