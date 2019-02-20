@@ -6,15 +6,16 @@ body {
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
     color: black;
-   
+    display: inline;
     margin: 10%;
    
 }
 
 .image {
     width: auto;
-    height: 100px;
+    height: 150px;
     float: right;
+     display: inline;
 }
     
 h1 {
