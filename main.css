@@ -1,8 +1,6 @@
 /* CIT 230 - Assignment Portal CSS Template */
-/* This is my first experience with VSC, and I couldn't get it to run code on my Mac, so I couldn't debug. I'm really sorry if the image doesn't load! */
 
-
-*  { margin: 0; box-sizing: border-box; }
+{ margin: 5%; box-sizing: border-box; }
 
 body {
     font-size: 16px;
@@ -35,8 +33,8 @@ header, footer, footer a {
 }
 
 header img {
-    width: 25%;
-    height: auto;
+    width: auto;
+    height: 10%;
     float: right;
 }
 
