@@ -1,0 +1,45 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* This is my first experience with VSC, and I couldn't get it to run code on my Mac, so I couldn't debug. I'm really sorry if the image doesn't load! */
+
+
+*  { margin: 0; box-sizing: border-box; }
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+}
+    
+h1 {
+    font-size: 1.5.xrem  (rem is a unit of measure);
+    color: #363433;}
+}
+
+h2 {
+    font-size: .5rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: /* undecided - I couldn't view to make informed decision  */;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: tan;
+    color: whitesmoke;
+}
+
+header img {
+    width: /* undecided - I couldn't view to make informed decision */;
+    height: auto;
+    float: right;
+}
+
+footer {
+    font-size: 12px;
+}
